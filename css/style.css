@@ -2,9 +2,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
-    font-size: 62%;
-
-
+    font-size: 60%;
 }   
 
 
@@ -83,7 +81,6 @@ section {
 }
 
 
-
 /*HEADER*/
 .background {
     display: flex;
@@ -130,11 +127,6 @@ section {
 
 }
 
-/* .product {
-    max-width: 100%;
-    margin-left: 10px;
-} */
-
 .product__title {
     color: #ea1d2c;
     font-size: 2rem;
@@ -177,7 +169,7 @@ section {
 .border-red {
     border-bottom: 2px solid #ea1d2c;
     padding: 4px;
-    width: 35%;
+    width: 22%;
 }
 
 .combo__title {
@@ -389,6 +381,11 @@ section {
         padding: 18px;
     }
 
+    .btn {
+        padding: 5px 28px;
+        font-size: 25px;
+    }
+
     .topbar__menu-itens {
         margin: 20px;
     }
@@ -426,14 +423,17 @@ section {
 
     .info__combo-bud {
         margin-top: -235px;
-        margin-left: 40px;
+        margin-left: 70px;
+    }
+
+    .combo__title {
         font-size: 20px;
-        
     }
 
     .combo__paragraph {
         padding: 15px;
         width: 54%;
+        font-size: 20px;
     }
 
     .cupom__box {
@@ -460,9 +460,8 @@ section {
     }
 
     .btn {
-            
         padding: 5px 28px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .topbar__menu-itens {
@@ -506,9 +505,14 @@ section {
         margin-left: 12%;  
     }
 
+    .combo__title {
+        font-size: 30px;
+    }
+
     .combo__paragraph {
         padding: 16px;
         width: 55%;
+        font-size: 30px;
     }
 
     .cupom__box {
